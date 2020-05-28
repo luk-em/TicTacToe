@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+
+  .game {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 50% 0 50 0;
+    position: relative;
+    background-size: 150px;
+    background-repeat: no-repeat;
+  }
+
+  .vertical1 {
+    border-right: 4px solid black;
+    height: 600px;
+    position: absolute;
+    left: 200px;
+
+  }
+
+  .vertical2 {
+    border-right: 4px solid black;
+    height: 600px;
+    position: absolute;
+    left: 400px;
+  }
+
+  .horizontal1 {
+    border-top: 4px solid black;
+    width: 600px;
+    position: absolute;
+    top: 400px;
+  }
+
+
+  .horizontal2 {
+    border-top: 4px solid black;
+    width: 600px;
+    position: absolute;
+    top: 200px;
+  }
+
+  div.cross1 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-image: url(/images/img2.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+  }
+
+  div.cross2 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-image: url(/images/img2.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+  }
+
+  div.cross3 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-image: url(/images/img2.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  div.circle {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-image: url(/images/circle.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+
+  }
