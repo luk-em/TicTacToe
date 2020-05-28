@@ -79,7 +79,7 @@
     width: 600px;
     height: 600px;
     position: absolute;
-    background-image: url("images/circle.png");
+    background-image: url("https://luk-em.github.io/TicTacToe/images/circle.png");
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: 50% 5%;
